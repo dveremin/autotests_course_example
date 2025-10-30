@@ -6,7 +6,6 @@ def modification(lst):
 
     simvn = lst.pop()
     simv1 = lst.pop(0)
-
     lst.insert(0, simvn)
     lst.append(simv1)
 

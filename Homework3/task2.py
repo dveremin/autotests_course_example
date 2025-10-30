@@ -4,7 +4,13 @@
 
 def get_list_info(lst):
     # Здесь пишем код
-    return min_elem, max_elem, sum_list, average
+
+    min_elem = min(lst)
+    max_elem = max(lst)
+    sum_list = sum(lst)
+    average = sum_list / len(lst)
+
+    return min_elem, max_elem, sum_list, round(average, 2)
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
